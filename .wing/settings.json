@@ -1,0 +1,9 @@
+{
+	"search.exclude": {
+		"**/bin-debug": true,
+		"**/bin-release": true
+	},
+
+    // 字体大小。
+    "editor.fontSize": 14
+}
