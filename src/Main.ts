@@ -129,6 +129,7 @@ class Main extends egret.DisplayObjectContainer {
         // 上一页
         var previewTxt:egret.TextField = new egret.TextField();
         this.stage.addChild(previewTxt);
+        previewTxt.size = 12;
         previewTxt.text = '上一页';
         previewTxt.width = 120;
         previewTxt.height = 20;
@@ -140,6 +141,7 @@ class Main extends egret.DisplayObjectContainer {
         // 下一页
         var nextText:egret.TextField = new egret.TextField();
         this.stage.addChild(nextText);
+        nextText.size = 12;
         nextText.text = '下一页';
         nextText.width = 120;
         nextText.height = 20;
